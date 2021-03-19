@@ -6,3 +6,6 @@ Wyniki analizy oprócz samej oceny spłaty przez klientów należności w przysz
 Z uwagi na wytyczne organów nadzorczych (KNF) w zakresie wykorzystania modeli predykcyjnych przez instytucje finansowe należy wykorzystać model w pełni interpretowalny. Dodatkowo należy ograniczyć transformowanie danych oraz w miarę możliwość (bez utraty skuteczności modelu) ograniczyć ilość atrybutów (wymiarowość) w celu uniknięcia przetrenowaniu modelu.<br>
 
 W celu wykonania modelu predykcyjnego do klasyfikacji klientów niewypłacalnych zostanie najpierw przeprowadzona wstępna analiza i początkowe przetwarzanie danych dla dostępnego zbioru danych klientów. Następnie nastąpi przetransformowanie wartości atrybutów w celu właściwego działania algorytmów oraz ograniczenie wymiarowości modelu poprzez dobór najlepszych atrybutów do modelowania. Do wykonania podstawowego modelu predykcyjnego zostanie wykorzystany algorytm regresji logistycznej. Dodatkowo w celach porównawczych będzie wykonany model na podstawie algorytmu wzmocnienia gradientowego XGBoost. Na podstawie osiągniętych wyników, biorąc pod uwagę ogólne wskaźniki modelowania oraz uwarunkowania biznesowe, zostanie przedstawione porównanie modeli i ocena skuteczności ich działania.
+
+***
+W celach testowych zostaną także wykonane modele na bazie algorytmu drzewa decyzyjnego, lasów losowych, LightGBM, CatBoost itp.
